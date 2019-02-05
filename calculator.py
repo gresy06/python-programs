@@ -1,5 +1,4 @@
 def menu():
-    #print what options you have
     print "calculator"
     print "your options are:"
     print " "
