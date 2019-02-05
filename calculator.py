@@ -10,24 +10,14 @@ def menu():
     print "5) Quit calculator"
     print " "
     return input ("Choose your option: ")
- 
-# this adds two numbers given
 def add(a,b):
     print a, "+", b, "=", a + b
- 
-# this subtracts two numbers given
 def sub(a,b):
     print b, "-", a, "=", b - a
- 
-# this multiplies two numbers given
 def mul(a,b):
     print a, "*", b, "=", a * b
- 
-# this divides two numbers given
 def div(a,b):
     print a, "/", b, "=", a / b
- 
-# NOW THE PROGRAM STARTS, AS CODE IS RUN
 loop = 1
 choice = 0
 while loop == 1:
